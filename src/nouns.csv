@@ -1,129 +1,129 @@
-the soup,die Suppe
-the onion,die Zwiebel
-the pea,die Erbse
-the vegetable,das Gemüse
-the bread,das Brot
-the ham,der Schicken
-the salad,der Salat
-the plate,der Teller
-the sausage,die Wurst
-the potato,die Kartoffel
-the dish,das Gericht
-the steak,das Steak
-the roast,der Braten
-red,rot
-the cabbage,der Kohl
-the pineable,die Ananas
-the schnitzel,das Schnitzel
-the hering,der Herring
-the dessert,der Nachtisch
-the ice cream,das Eis
-the layer cake,die Torte
-the drink,das Getränk
-the coffee,der Kaffee
-the cup,die Tasse
-the tea-pot,das Kännchen
-the chocolate,die Schokolade
-the juice,der Saft
-the lemonade,die Limonade
-the water,das Wasser
-the beer,das Bier
-the keg,das Fass
-white,weiß
-the wine,der Wein
-the holiday,der Urlaub
-the challenge,die herauforderang
-the Bountique,die Bountique
-the clothes,die Klamotten
-the suggestion,der Vorschlag
-the coin,das Mitglied
-the tub,der Becher
-the yogurt,der Jogurt
-the letre,der Liter
-the milk,die Milch
-the case,der Kasten
-the bottle,die Flasche
-the cola,die Cola
-the packet,die Packung
-the tea,der Tee
-the kilogram,das Kilo
-the apple,der Apfel
-the pound,das Pfund
-the orange,die Apfelsine
-the cheese,der Käse
-the piece,das Stück
-the colliflower,der Blumenkohl
-the glass,das Glas
-the marmelade,die Mamelade
-the story,die Geschichte
-the city,die Stadt
-the harbour,der Hafen
-the appartment,der Einwohner
-the person,der Mensch
-the newspaper,die Zeitung
-the magazine,die Zeitschrift
-the bussiness,das Geschäft
-the museum,das Museum
-the toy,das Spielzeug
-the river,der Fluss
-the solution,der Ratschläge
-the plan,der Plan
-the story,die Geschichte
-the hostpitak,das Krankenhaus
-the fun,der Spaß
-the branch,die Filiale
-the artist,der Künstler
-the viewer,der Zuschauer
-the coinicidence,der Zufall
-the competition,der Wettbewerb
-the training,die Ausbildung
-the jump,der Sprung
-the homeland,die Heimat
-the success,der Erfolg
-the diversitz,die Vielfalt
-the broadcast,die Sendung
-the laughter,das Gelächter
-the performance,das Gastspiel
-the call,das Rufen
-the page,die Seite
-the information,die Auskunft
-the trainstation,der Bahnhof
-the youth hostle,die Jungendherberge
-the head,der Kopf
-the bank,die Bank
-the airport,der Flughafen
-the Ubahn,die UBahn
-the bus,der Bus
-the card,die Karte
-the BVG,die BVG
-the Sbahn,die Sbahn
-the Tram,die Tram
-the (male) college,die Kolleger
-the stay,der Aufenthalt
-the nuclear physics,die Atomkraft
-the exchange year,das Austauschjahr
-the choose,die Wahlen
-the foreign minister (with boobs),die Außenministerin
-the window,der Fenster
-the gate,die Genze
-the citzens,der Bürger
-the otherside,die Übergang
-the tray,das Tablett
-the order,der Befehl
-the case,die Kaserne
-the group captain,der Oberst
-the leutanant,der Leutnant
-the troupes,die Truppe
-the possibilitz,die Möglichkeot
-the weapon,die Waffe
-the vilionce,die Gewalt
-the capital city,die Hauptstadt
-the present,das Geschenk
-the flea market,der Flohmarkt
-the open air cinima,das Freiluftkino
-the momument,die Gedenkstätte
-the building,das Gebäude
-the dome,die Kuppel
-the landmark,das Wahrzeichen
-the suburb,die Residenustadt
-the castle,das Schloss
+,the soup,die Suppe,../images/Flag_of_Germany.png
+,the onion,die Zwiebel,
+,the pea,die Erbse,
+,the vegetable,das Gemüse,
+,the bread,das Brot,
+,the ham,der Schicken,
+,the salad,der Salat,
+,the plate,der Teller,
+,the sausage,die Wurst,
+,the potato,die Kartoffel,
+,the dish,das Gericht,
+,the steak,das Steak,
+,the roast,der Braten,
+,red,rot,
+,the cabbage,der Kohl,
+,the pineable,die Ananas,
+,the schnitzel,das Schnitzel,
+,the hering,der Herring,
+,the dessert,der Nachtisch,
+,the ice cream,das Eis,
+,the layer cake,die Torte,
+,the drink,das Getränk,
+,the coffee,der Kaffee,
+,the cup,die Tasse,
+,the tea-pot,das Kännchen,
+,the chocolate,die Schokolade,
+,the juice,der Saft,
+,the lemonade,die Limonade,
+,the water,das Wasser,
+,the beer,das Bier,
+,the keg,das Fass,
+,white,weiß,
+,the wine,der Wein,
+,the holiday,der Urlaub,
+,the challenge,die herauforderang,
+,the Bountique,die Bountique,
+,the clothes,die Klamotten,
+,the suggestion,der Vorschlag,
+,the coin,das Mitglied,
+,the tub,der Becher,
+,the yogurt,der Jogurt,
+,the letre,der Liter,
+,the milk,die Milch,
+,the case,der Kasten,
+,the bottle,die Flasche,
+,the cola,die Cola,
+,the packet,die Packung,
+,the tea,der Tee,
+,the kilogram,das Kilo,
+,the apple,der Apfel,
+,the pound,das Pfund,
+,the orange,die Apfelsine,
+,the cheese,der Käse,
+,the piece,das Stück,
+,the colliflower,der Blumenkohl,
+,the glass,das Glas,
+,the marmelade,die Mamelade,
+,the story,die Geschichte,
+,the city,die Stadt,
+,the harbour,der Hafen,
+,the appartment,der Einwohner,
+,the person,der Mensch,
+,the newspaper,die Zeitung,
+,the magazine,die Zeitschrift,
+,the bussiness,das Geschäft,
+,the museum,das Museum,
+,the toy,das Spielzeug,
+,the river,der Fluss,
+,the solution,der Ratschläge,
+,the plan,der Plan,
+,the story,die Geschichte,
+,the hostpitak,das Krankenhaus,
+,the fun,der Spaß,
+,the branch,die Filiale,
+,the artist,der Künstler,
+,the viewer,der Zuschauer,
+,the coinicidence,der Zufall,
+,the competition,der Wettbewerb,
+,the training,die Ausbildung,
+,the jump,der Sprung,
+,the homeland,die Heimat,
+,the success,der Erfolg,
+,the diversitz,die Vielfalt,
+,the broadcast,die Sendung,
+,the laughter,das Gelächter,
+,the performance,das Gastspiel,
+,the call,das Rufen,
+,the page,die Seite,
+,the information,die Auskunft,
+,the trainstation,der Bahnhof,
+,the youth hostle,die Jungendherberge,
+,the head,der Kopf,
+,the bank,die Bank,
+,the airport,der Flughafen,
+,the Ubahn,die UBahn,
+,the bus,der Bus,
+,the card,die Karte,
+,the BVG,die BVG,
+,the Sbahn,die Sbahn,
+,the Tram,die Tram,
+,the (male) college,die Kolleger,
+,the stay,der Aufenthalt,
+,the nuclear physics,die Atomkraft,
+,the exchange year,das Austauschjahr,
+,the choose,die Wahlen,
+,the foreign minister (with boobs),die Außenministerin,
+,the window,der Fenster,
+,the gate,die Genze,
+,the citzens,der Bürger,
+,the otherside,die Übergang,
+,the tray,das Tablett,
+,the order,der Befehl,
+,the case,die Kaserne,
+,the group captain,der Oberst,
+,the leutanant,der Leutnant,
+,the troupes,die Truppe,
+,the possibilitz,die Möglichkeot,
+,the weapon,die Waffe,
+,the vilionce,die Gewalt,
+,the capital city,die Hauptstadt,
+,the present,das Geschenk,
+,the flea market,der Flohmarkt,
+,the open air cinima,das Freiluftkino,
+,the momument,die Gedenkstätte,
+,the building,das Gebäude,
+,the dome,die Kuppel,
+,the landmark,das Wahrzeichen,
+,the suburb,die Residenustadt,
+,the castle,das Schloss,

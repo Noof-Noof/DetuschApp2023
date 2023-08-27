@@ -5,24 +5,19 @@ from PyQt5.QtCore import *
 import pandas as pd
 import GUI
 import random
+from numpy.core.defchararray import upper
 
 class Assesser:
-    def __init__(self):
-        filename = input("What is the file name? ")
-        self.df = pd.read_csv(f"{filename}.csv", header=None, index_col=0)
-        self.definitions = self.df.to_dict()[1]
-        self.times = {}
-        self.inv_definitions = {}
-        print(f'Your chosen list is {len(self.definitions)} long.')
-        self.start_point = int(input("Select a starting point (or enter 0 to practice the whole list): "))
-        while self.start_point > (len(self.definitions) - 1):
-            self.start_point = int(input(f'Your chosen list is {len(self.definitions)} long. Please choose a starting point smaller than the length. '))
+    def __init__(self, definitions):
+        self.start_point = 20
         self.attempts = 0
         self.correct = 0
         self.history = []
         self.completed = []
         self.announced = False
         self.index = 0
+        self.definitions = definitions
+        self.keys = []
 
     def is_unique(self, test):
         if test not in self.completed:
@@ -31,48 +26,36 @@ class Assesser:
             print("You have answered every word.")
             self.announced = True
 
+    def get_index(self):
+        return self.index
+
     def main(self):
-        self.index = random.randint(self.start_point, len(self.definitions)-1)
-        keys = list(self.definitions.keys())
-        print(f'{self.attempts + 1}. What does \"{keys[self.index].strip()}\" mean?')
-        answer = input()
-        if answer == '!' and attempts > 0:
+        self.index = random.randint(self.start_point, len(self.definitions[1])-1)
+        self.keys = list(self.definitions[1])
+        print(f'{self.attempts + 1}. What does \"{self.keys[self.index].strip()}\" mean?')
+    
+    def answer(self, input):
+        if input == '!' and self.attempts > 0:
             self.correct += 1
             self.history.pop()
             self.history.append('✔')
-        elif upper(answer.strip()) == upper(self.definitions[keys[self.index]].strip()):
+            return 1
+        elif upper(input.strip()) == upper(self.definitions[2][self.index].strip()):
             self.attempts += 1
             self.correct += 1
             self.history.append('✔')
-            self.is_unique(index)
+            self.is_unique(self.index)
             print("Sehr gut!")
+            return 1
         else:
             self.attempts += 1
             self.history.append('❌')
-            print(f"Dummkopf! It means \"{self.definitions[keys[index]].strip()}\".")
+            print(f"Dummkopf! It means \"{self.definitions[2][self.index].strip()}\".")
+            return 0
 
-assesser = Assesser()
+    def set_definitions(self, definitions):
+        self.definitions = definitions
 
-def terminally():
-    try:
-        assesser.main()
-    except KeyboardInterrupt:
-        top_streak = 0
-        streak = 0
-        print(f'Your score is {correct} out of {attempts}. That is {round(correct/attempts*100,2)}%.')
-        for his in history:
-            print(f'{his}', end='')
-            if his == "✔":
-                streak += 1
-                if top_streak < streak:
-                    top_streak = streak
-            else:
-                if top_streak < streak:
-                    top_streak = streak
-                streak = 0
-            
-        print('\n')
-        print(f'Your longest streak was: {top_streak}')
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
