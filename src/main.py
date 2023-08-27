@@ -76,15 +76,15 @@ def terminally():
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    app.setApplicationName("Deutsch - In Loving Memory of Shane Karunaratne")
+    app.setApplicationName("Nein out of Ten - In Loving Memory of Shane Karunaratne")
     app.setWindowIcon(QIcon('../images/Flag_of_Germany.png'))
-    app.setApplicationDisplayName("Deutsch - In Loving Memory of Shane Karunaratne")
+    app.setApplicationDisplayName("Nein out of Ten- In Loving Memory of Shane Karunaratne")
 
     demo = GUI.MainWindow()
 
     timer = QTimer()
     timer.start(100)
-    timer.timeout.connect(terminally)
+    #timer.timeout.connect(terminally)
     
     demo.show()
     
