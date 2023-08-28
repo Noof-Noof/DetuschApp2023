@@ -18,6 +18,7 @@ class Streaks(QLabel):
     def update_image(self, index):
         if type(definitions[3][index]) == type("s"):
             self.flag = QPixmap(definitions[3][index])
+            self.flag = self.flag.scaled(600, 600)
         else:
             self.flag = QPixmap('../images/Flag_of_Germany.png')
         self.clear()
