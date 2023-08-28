@@ -16,11 +16,14 @@ class Streaks(QLabel):
         self.show()
 
     def update_image(self, index):
-        if type(definitions[3][index]) == 'float':
+        if type(definitions[3][index]) == type("s"):
             self.flag = QPixmap(definitions[3][index])
         else:
             self.flag = QPixmap('../images/Flag_of_Germany.png')
+        self.clear()
         self.setPixmap(self.flag)
+        self.resize(400,400)
+        self.show()
 
 class WordLabel(QLabel):
     def __init__(self, parent):

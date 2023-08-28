@@ -9,7 +9,7 @@ from numpy.core.defchararray import upper
 
 class Assesser:
     def __init__(self, definitions):
-        self.start_point = 20
+        self.start_point = 0
         self.attempts = 0
         self.correct = 0
         self.history = []
